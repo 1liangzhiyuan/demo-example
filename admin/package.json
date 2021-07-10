@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "serve": "webpack -w --config ./config/webpack.dev.js",
+        "build": "webpack --config ./config/webpack.prod.js"
+    }
+}

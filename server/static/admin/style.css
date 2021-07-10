@@ -1,0 +1,92 @@
+.page-login .login-inner[data-v-26084dc2] {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  margin: -220px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px 20px 25px;
+}
+.page-login .login-inner h2[data-v-26084dc2] {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+    font-weight: normal;
+}
+.page-login .login-inner .login-btn[data-v-26084dc2] {
+    display: block;
+    width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html, body {
+  background: #efefef;
+  height: 100%;
+}
+#app {
+  height: 100%;
+}
+
+.page-home {
+  height: 100%;
+}
+.page-home .el-header {
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.page-home .el-header h1 {
+      flex: 1;
+}
+.page-home .el-header .status {
+      padding-top: 10px;
+}
+.page-home .el-aside,
+  .page-home .el-main {
+    background: #fff;
+}
+.page-home .el-main {
+    margin-left: 10px;
+}
+.page-home .page-title {
+    margin-bottom: 40px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 24px;
+    font-weight: normal;
+}
+.page-home .el-input,
+  .page-home .el-textarea,
+  .page-home .el-select {
+    width: 50%;
+}
+.page-home .el-select .el-input {
+    width: 100%;
+}
+.page-home .el-rate {
+    line-height: 40px;
+}
+.page-home .el-rate .el-rate__icon {
+      vertical-align: middle;
+}
+.page-home .ickt-upload-tip {
+    color: #999;
+    margin-left: 10px;
+}
+.page-home .ickt-upload-img {
+    max-height: 150px;
+    margin-top: 20px;
+}
+.page-home .list-page {
+    text-align: center;
+}
+

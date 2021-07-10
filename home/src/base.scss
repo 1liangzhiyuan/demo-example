@@ -1,0 +1,10 @@
+$navColor: #06c1ae;
+
+// 定义混合
+@mixin arrow($w: 10px, $c: #000, $dir: top) {
+    // 兼容行内元素与块元素
+    width: 0;
+    font-size: 0;
+    border: $w solid transparent;
+    border-#{$dir}-color: $c;
+}
